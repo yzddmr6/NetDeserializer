@@ -1,0 +1,14 @@
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\bin\Debug\Deserialize_1.exe.config
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\bin\Debug\Deserialize_1.exe
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\bin\Debug\Deserialize_1.pdb
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.csprojAssemblyReference.cache
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.csproj.CoreCompileInputs.cache
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.exe
+C:\Users\13765\Documents\VsProject2019\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.pdb
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\bin\Debug\Deserialize_1.exe.config
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\bin\Debug\Deserialize_1.exe
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\bin\Debug\Deserialize_1.pdb
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.csprojAssemblyReference.cache
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.csproj.CoreCompileInputs.cache
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.exe
+C:\Users\13765\Desktop\记录\Deserialize_1\Deserialize_1\obj\Debug\Deserialize_1.pdb
