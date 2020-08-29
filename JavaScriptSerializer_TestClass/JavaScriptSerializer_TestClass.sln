@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptSerializer_TestClass", "JavaScriptSerializer_TestClass\JavaScriptSerializer_TestClass.csproj", "{BFC70B7B-C48E-4CFB-B32E-4160D517BEE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC70B7B-C48E-4CFB-B32E-4160D517BEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC70B7B-C48E-4CFB-B32E-4160D517BEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC70B7B-C48E-4CFB-B32E-4160D517BEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC70B7B-C48E-4CFB-B32E-4160D517BEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F46EDA4D-5796-4237-A2F3-254756BD5343}
+	EndGlobalSection
+EndGlobal
